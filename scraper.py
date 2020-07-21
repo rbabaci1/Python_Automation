@@ -48,6 +48,3 @@ def send_email():
 
 ############  Run the script  ############
 check_price()
-# while True:
-#     check_price()
-#     time.sleep(43200)
