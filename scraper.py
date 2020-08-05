@@ -19,7 +19,7 @@ def check_price():
     price = soup.find(class_="priceView-customer-price").get_text()
     converted_price = float(price[1:6].replace(",", ""))
 
-    if converted_price <= 1600:
+    if converted_price <= 1500:
         send_email()
     else:
         today = date.today()
