@@ -22,8 +22,7 @@ def check_price():
     if converted_price <= 1500:
         send_email()
     else:
-        today = date.today()
-        print(f"{today}: price: {converted_price}.")
+        print(f"{date.today()} - price: ${converted_price}")
 
 
 def send_email():
