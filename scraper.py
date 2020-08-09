@@ -31,8 +31,6 @@ def send_email():
     server.starttls()
     server.ehlo()
 
-    server.login("4rabah@gmail.com", "nvvtlxvpglhzyumz")
-
     subject = "Best Buy DJI Mavic Pro price is down!!!"
     body = "Check the Best Buy Link https://www.bestbuy.com/site/dji-mavic-2-pro-quadcopter-with-remote-controller-gray/6262620.p?skuId=6262620"
 
